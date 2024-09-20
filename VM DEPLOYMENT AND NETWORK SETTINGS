@@ -1,0 +1,20 @@
+# GROUB-B-PROJECT-REPO
+
+THE FOLLOWING STEPS DETAILED THE PROCEDURES INVOLVED IN SETTING UP VM AND CONFIGURING NETWORK SETTING ON THE VM.
+-	Azure portal is logged in
+-	Navigation is done to where VM is created on Azure portal.
+-	Click on connect to see where networking settings are located
+-	Scroll to remote desktop i.e.  “Remote Desktop Protocol”
+-	Toggle the switch to “enable”
+-	-Ensure that RDP port is default (3389)
+-	Network security group (NSG) rules is set to “allow inbound”
+-	The Azure Active Directory is chosen as authentication method where credentials are created.
+-	Safe changes.
+
+THE STEPS TAKEN TO TEST REMOTE ACCESS ON VM
+-	Remote Desktop Client on the window local machine is open,
+-	The Public IP address of the VM created is copied and pasted on the interface of Remote Desktop client
+-	The credentials are filled in the spaces provided (Public IP address, username and password)
+-	The VM was launched immediately
+
+
